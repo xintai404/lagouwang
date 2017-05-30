@@ -1,0 +1,23 @@
+{
+  "name": "lagouwang",
+  "homepage": "https://github.com/xintai404/lagouwang",
+  "description": "job posting",
+  "main": "",
+  "keywords": [
+    "angularjs"
+  ],
+  "authors": [
+    "kai.chen"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}
