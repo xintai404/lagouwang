@@ -77,7 +77,7 @@ gulp.task('serve', ['build'], function(){
 	gulp.watch('lib/**/*', ['lib']);
 	gulp.watch(app.srcPath+ '**/*.html', ['html']);
 	gulp.watch(app.srcPath+ 'data/**/*.json', ['json']);
-	gulp.watch(app.srcPath+ 'style/index.less', ['less']);
+	gulp.watch(app.srcPath+ 'style/**/*.less', ['less']);
 	gulp.watch(app.srcPath+ 'image/**/*', ['image']);
 })
 
