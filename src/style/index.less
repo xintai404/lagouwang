@@ -1,6 +1,8 @@
 @import 'template/head.less';
 @import 'template/foot.less';
+@import 'template/positionList.less';
 @import 'property.less';
+
 
 .fs(@px){
 	font-size: unit(@px / 37.5, rem);
@@ -19,7 +21,7 @@
 }
 
 .mt(@px){
-	padding-top: unit(@px / 37.5, rem);
+	margin-top: unit(@px / 37.5, rem);
 }
 
 .mr(@px){
@@ -58,4 +60,5 @@ html, body{
 
 body{    
 	.fs(16);
+	background-color: @bodyBgColor;
 }
