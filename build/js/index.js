@@ -50,6 +50,15 @@ angular.module('app').controller('positionCtrl', ['$scope', function($scope){
 }]);
 'use strict';
 
+angular.module('app').directive('appCompany',[function(){   
+	return {
+		restrict: 'A',
+		replace: true,
+		templateUrl: 'view/template/company.html'
+	}
+}]);
+'use strict';
+
 angular.module('app').directive('appFoot', [function(){
 	return {
 		restrict: 'A',

@@ -81,6 +81,7 @@
 }
 .position-info {
   padding: 26px 10px 18px 10px;
+  border-bottom: 1px solid #ccc;
 }
 .position-info .ml {
   margin-left: 20px;
@@ -88,6 +89,17 @@
 .position-info img {
   top: 40px;
   right: 24px;
+}
+.company-info {
+  padding: 20px 15px 13px 85px;
+}
+.company-info img {
+  width: 1.6rem;
+  height: 1.6rem;
+  left: 15px;
+}
+.company-info p {
+  margin-top: 0;
 }
 .bottom-btn {
   position: fixed;
@@ -99,6 +111,21 @@
   bottom: 0;
   border: 0;
   font-size: 0.42666667rem;
+}
+.position-desc {
+  margin-top: 10px;
+}
+.position-desc h5 {
+  font-size: 0.42666667rem;
+  margin: 0;
+  padding-left: 10px;
+  border-bottom: 1px solid #ccc;
+  line-height: 1.06666667rem;
+  height: 1.06666667rem;
+}
+.position-desc pre {
+  margin-left: 0;
+  padding-left: 10px;
 }
 .bg-w {
   background-color: #fff;
